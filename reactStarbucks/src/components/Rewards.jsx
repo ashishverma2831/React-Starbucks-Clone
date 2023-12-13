@@ -5,8 +5,7 @@ import Footer from './Footer'
 const Rewards = () => {
   return (
     <div>
-        <Navbar />
-        <Footer />
+        
     </div>
   )
 }

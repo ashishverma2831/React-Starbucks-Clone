@@ -5,8 +5,7 @@ import Footer from './Footer'
 const Giftcards = () => {
   return (
     <div>
-        <Navbar/>
-        <Footer/>
+        
     </div>
   )
 }

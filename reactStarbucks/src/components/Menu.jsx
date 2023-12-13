@@ -5,8 +5,7 @@ import Footer from './Footer'
 const Menu = () => {
   return (
     <div>
-        <Navbar />
-        <Footer />
+        
     </div>
   )
 }

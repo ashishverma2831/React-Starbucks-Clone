@@ -8,9 +8,9 @@ import Section from './Section'
 const Home = () => {
   return (
     <div>
-        <Navbar />
+        
         <Section />
-        <Footer />
+        
     </div>
   )
 }

@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom'
 const Navbar = () => {
   return (
     <div>
-        <nav className="bg-white border-gray-200 shadow-lg">
+        <nav className=" border-gray-200 shadow-lg">
   <div className="lg:w-11/12 flex flex-wrap items-center justify-between mx-auto p-4">
     <div className="flex items-center space-x-3 rtl:space-x-reverse ">
       <NavLink to="/">
@@ -43,21 +43,21 @@ const Navbar = () => {
       className="hidden w-full md:block md:w-auto md:flex-1 md:justify-between"
       id="navbar-default"
     >
-      <div className="font-medium flex flex-col md:justify-between p-4  md:p-0 mt-4 bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:bg-white">
-        <ul className="flex flex-col justify-start md:flex-row gap-6 my-auto md:pl-4">
-          <li className="hover:text-green-600">
+      <div className=" font-medium flex flex-col md:justify-between p-4  md:p-0 mt-4  md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:bg-white">
+        <ul className="flex flex-col justify-start md:flex-row gap-6  md:pl-4 ">
+          <li className="hover:text-green-600  flex items-center">
             <NavLink to="/menu">
-              <strong>MENU</strong>
+              <strong className='tracking-wider '>MENU</strong>
             </NavLink>
           </li>
-          <li className="hover:text-green-600">
+          <li className=" hover:text-green-600 flex items-center">
             <NavLink to="/rewards">
-              <strong>REWARDS</strong>
+              <strong className='tracking-wider '>REWARDS</strong>
             </NavLink>
           </li>
-          <li className="hover:text-green-600">
+          <li className="hover:text-green-600 flex items-center">
             <NavLink to="/giftcards">
-              <strong>GIFT CARDS</strong>
+              <strong className='tracking-wider'>GIFT CARDS</strong>
             </NavLink>
           </li>
         </ul>

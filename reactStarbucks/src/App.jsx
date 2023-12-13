@@ -7,6 +7,9 @@ import Joinnow from './components/Joinnow'
 import Menu from './components/Menu'
 import Giftcards from './components/Giftcards'
 import Rewards from './components/Rewards'
+import ErrorPage from './components/ErrorPage'
+import Navbar from './components/Navbar'
+import Footer from './components/Footer'
 
 
 const App = () => {
@@ -14,7 +17,7 @@ const App = () => {
     <div>
       <BrowserRouter>
 
-
+        <Navbar />
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/menu' element={<Menu />} />
@@ -22,7 +25,9 @@ const App = () => {
           <Route path='/giftcards' element={<Giftcards />} />
           <Route path='/signin' element={<Signin />} />
           <Route path='/joinnow' element={<Joinnow />} />
+          <Route path='*' element={<ErrorPage />} />
         </Routes>
+        <Footer />
       </BrowserRouter>
     </div>
   )

@@ -62,7 +62,7 @@ const Navbar = () => {
           </li>
         </ul>
         <div className="flex flex-col md:flex-row">
-          <div className="mr-[60px] my-4 flex gap-4 hover:text-green-600 font-semibold">
+          <div className="mr-[50px] flex gap-4 hover:text-green-600 font-semibold items-center ">
             <i className="fa-solid fa-location-dot my-auto text-xl" />
             <NavLink to="#" className="my-auto">
               Find a store

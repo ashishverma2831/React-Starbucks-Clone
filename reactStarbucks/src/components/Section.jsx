@@ -3,7 +3,7 @@ import React from 'react'
 const Section = () => {
   return (
     <div>
-  <div className="bg-[#006241] flex flex-col-reverse md:flex-row mx-auto my-10 lg:w-10/12">
+  <div className="bg-[#006241] flex flex-col-reverse md:flex-row mx-auto my-10 3xl:w-10/12">
     <div className="md:w-1/2 w-full flex justify-center items-center flex-col text-center py-10">
       <h1 className="mb-4 text-5xl font-semibold text-white px-12">
         Half off for the holidays
@@ -23,7 +23,7 @@ const Section = () => {
       />
     </div>
   </div>
-  <div className="bg-[#1e3932] flex flex-col md:flex-row mx-auto my-10 w-full lg:w-10/12">
+  <div className="bg-[#1e3932] flex flex-col md:flex-row mx-auto my-10 w-full 3xl:w-10/12">
     <div className="md:w-1/2 w-full my-auto">
       <img
         src="https://content-prod-live.cert.starbucks.com/binary/v2/asset/137-87741.jpg"
@@ -44,7 +44,7 @@ const Section = () => {
       </button>
     </div>
   </div>
-  <div className="bg-[#f0d0cb] flex flex-col-reverse md:flex-row mx-auto my-10 lg:w-10/12">
+  <div className="bg-[#f0d0cb] flex flex-col-reverse md:flex-row mx-auto my-10 3xl:w-10/12">
     <div className="md:w-1/2 w-full flex justify-center items-center flex-col text-center py-10">
       <h1 className="mb-4 text-5xl font-semibold px-12">The game is on!</h1>
       <p className="text-2xl px-12">
@@ -62,7 +62,7 @@ const Section = () => {
       />
     </div>
   </div>
-  <div className="bg-[#dc0032] flex flex-col md:flex-row mx-auto my-10 lg:w-10/12">
+  <div className="bg-[#dc0032] flex flex-col md:flex-row mx-auto my-10 3xl:w-10/12">
     <div className="md:w-1/2 w-full my-auto">
       <img
         src="https://content-prod-live.cert.starbucks.com/binary/v2/asset/137-87772.jpg"
@@ -82,7 +82,7 @@ const Section = () => {
       </button>
     </div>
   </div>
-  <div className="bg-[#1e3932] flex flex-col-reverse md:flex-row mx-auto my-10 lg:w-10/12">
+  <div className="bg-[#1e3932] flex flex-col-reverse md:flex-row mx-auto my-10 3xl:w-10/12">
     <div className="md:w-1/2 w-full flex justify-center items-center flex-col text-center py-10">
       <h1 className="mb-4 text-5xl font-semibold text-white px-12">
         Toasty all the way
@@ -102,7 +102,7 @@ const Section = () => {
       />
     </div>
   </div>
-  <div className="bg-[#ad96dc] flex flex-col md:flex-row mx-auto my-10 lg:w-10/12">
+  <div className="bg-[#ad96dc] flex flex-col md:flex-row mx-auto my-10 3xl:w-10/12">
     <div className="md:w-1/2 w-full my-auto">
       <img
         src="https://content-prod-live.cert.starbucks.com/binary/v2/asset/137-87773.jpg"
